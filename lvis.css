@@ -1,0 +1,78 @@
+@font-face {
+font-family: BLiNGRiNG;
+src: url("fonts/BLiNGRiNG.ttf");
+}
+
+header{
+    background-color: navy;
+    margin: auto;
+    width: 80%;
+    padding: auto;
+    margin-bottom: 1em;
+    padding: 0.2em;
+    border: solid red 3px;
+    font-family: BLiNGRiNG;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+footer{
+    background-color: navy;
+    margin: auto;
+    width: 80%;
+    margin-top: 0em;
+    margin-bottom: 0;
+    padding: 0.5em;
+    border: solid red 3px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 0.5em;
+    text-align: center;
+}
+body{
+    background-image: url("lvis-background.jpg");
+    background-size: 7em;
+    background-repeat: repeat;
+}
+iframe{
+    width: 80%;
+    height: 50%;
+    padding: auto;
+    align-content: center;
+    border: solid red 1px;
+    position:relative; /* positions out of the flow, but according to the nearest parent */
+    left: 10%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.social{
+    margin-left: 0.5%;
+    border-radius: 0.5em;
+    margin-top: 1%;
+}
+.video{
+    background-color: #002080;
+    margin: auto;
+    width: 80%;
+    padding: auto;
+    border: solid red 3px;
+    margin-bottom: 2em;
+    
+}
+#social{
+    margin-left: 15%;
+    width: 55%;
+}
+#gradient{
+    background-image: url(gray-gradient.png);
+    background-repeat: repeat-x;
+    height: 4em;
+    border-radius: 0.5em;
+    border: grey 1pt;
+    margin: auto;
+    margin-bottom: 0em;
+    width: 80%;
+    padding: auto;
+    
+}
